@@ -19,6 +19,7 @@ import {
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {ExampleView} from './src/components/ExampleView';
+import {ColorView} from './src/components/ColorView';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -35,7 +36,9 @@ function App(): React.JSX.Element {
       />
 
       <View style={{flex: 1}}>
-        <ExampleView />
+        {/* <ExampleView />
+         */}
+        <ColorView />
       </View>
     </SafeAreaView>
   );

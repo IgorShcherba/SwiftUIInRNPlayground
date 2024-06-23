@@ -19,6 +19,10 @@
 		CD5BA9342C2726310053DC18 /* SimpleViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5BA9332C2726310053DC18 /* SimpleViewManager.m */; };
 		CD5BA9362C27264B0053DC18 /* SimpleViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BA9352C27264B0053DC18 /* SimpleViewManager.swift */; };
 		CD5BA9382C2726640053DC18 /* SimpleViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BA9372C2726640053DC18 /* SimpleViewProxy.swift */; };
+		CD5BA93A2C2848580053DC18 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BA9392C2848580053DC18 /* ColorView.swift */; };
+		CD5BA93C2C2848C50053DC18 /* ColorViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BA93B2C2848C50053DC18 /* ColorViewProxy.swift */; };
+		CD5BA93E2C284C0E0053DC18 /* ColorViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5BA93D2C284C0E0053DC18 /* ColorViewManager.m */; };
+		CD5BA9402C284C4E0053DC18 /* ColorViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BA93F2C284C4E0053DC18 /* ColorViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		CD5BA9332C2726310053DC18 /* SimpleViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewManager.m; sourceTree = "<group>"; };
 		CD5BA9352C27264B0053DC18 /* SimpleViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewManager.swift; sourceTree = "<group>"; };
 		CD5BA9372C2726640053DC18 /* SimpleViewProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewProxy.swift; sourceTree = "<group>"; };
+		CD5BA9392C2848580053DC18 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		CD5BA93B2C2848C50053DC18 /* ColorViewProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewProxy.swift; sourceTree = "<group>"; };
+		CD5BA93D2C284C0E0053DC18 /* ColorViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorViewManager.m; sourceTree = "<group>"; };
+		CD5BA93F2C284C4E0053DC18 /* ColorViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewManager.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -106,8 +114,12 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				150591E8062E2EE3CC986142 /* PrivacyInfo.xcprivacy */,
+				CD5BA93D2C284C0E0053DC18 /* ColorViewManager.m */,
+				CD5BA9392C2848580053DC18 /* ColorView.swift */,
+				CD5BA93B2C2848C50053DC18 /* ColorViewProxy.swift */,
 				CD5BA9312C27260E0053DC18 /* SimpleViewSWUI.swift */,
 				CD5BA9332C2726310053DC18 /* SimpleViewManager.m */,
+				CD5BA93F2C284C4E0053DC18 /* ColorViewManager.swift */,
 				CD5BA9352C27264B0053DC18 /* SimpleViewManager.swift */,
 				CD5BA9372C2726640053DC18 /* SimpleViewProxy.swift */,
 				CD5BA9302C27260E0053DC18 /* SwifthUIInRN-Bridging-Header.h */,
@@ -414,9 +426,13 @@
 			files = (
 				CD5BA9362C27264B0053DC18 /* SimpleViewManager.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				CD5BA93E2C284C0E0053DC18 /* ColorViewManager.m in Sources */,
+				CD5BA93A2C2848580053DC18 /* ColorView.swift in Sources */,
+				CD5BA93C2C2848C50053DC18 /* ColorViewProxy.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				CD5BA9342C2726310053DC18 /* SimpleViewManager.m in Sources */,
 				CD5BA9322C27260E0053DC18 /* SimpleViewSWUI.swift in Sources */,
+				CD5BA9402C284C4E0053DC18 /* ColorViewManager.swift in Sources */,
 				CD5BA9382C2726640053DC18 /* SimpleViewProxy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +511,7 @@
 				DEVELOPMENT_TEAM = 7QPZXCJKZN;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SwifthUIInRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -523,6 +540,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QPZXCJKZN;
 				INFOPLIST_FILE = SwifthUIInRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
